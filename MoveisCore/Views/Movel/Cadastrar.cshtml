@@ -1,0 +1,40 @@
+﻿@model MovelModelView
+@{
+    ViewData["Title"] = "Cadastrar Móvel";
+}
+
+<div class="container">
+    <h1>Cadastrar Móvel</h1>
+    <hr />
+
+    <form class="row g-3" asp-action="Cadastrar" method="post">
+        <div class="col-md-6">
+            <label for="inputNome" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="inputNome" asp-for="Nome" placeholder="Digite o nome do móvel">
+        </div>
+        <div class="col-md-6">
+            <label for="inputDescricao" class="form-label">Descrição</label>
+            <input type="password" class="form-control" id="inputDescricao" asp-for="Descricao" placeholder="Digite a descrição do móvel">
+        </div>
+        <div class="col-md-4">
+            <label for="inputComprado" class="form-label">Comprado?</label>
+            <select id="inputComprado" class="form-select" asp-for="IsComprado">
+                <option value="@true" selected>Sim</option>
+                <option value="@false">Não</option>
+            </select>
+        </div>
+        <div class="col-12 my-2">
+            <button type="submit" class="btn btn-primary">Salvar</button>
+            <a href="@Url.Action("Index", "Movel")" class="btn btn-primary">Voltar a lista</a>
+        </div>
+    </form>
+</div>
+
+@{
+    void Cadastrar()
+    {
+        var movel = new MovelModelView(Model.Nome, Model.Descricao, Model.IsComprado);
+        MovelService service = new MovelService();
+        service.Adicionar(movel);
+    }
+}

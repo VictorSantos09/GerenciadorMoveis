@@ -1,0 +1,62 @@
+[
+  {
+    "Id": "c192bce1-5e5b-4a47-a5a9-3e8d34c52f01",
+    "Nome": "Sofá",
+    "Descricao": "Sofá de couro de três lugares",
+    "IsComprado": true
+  },
+  {
+    "Id": "a8f9d713-7ae5-4a8b-9e2f-8c02a1aaf5d6",
+    "Nome": "Mesa de Jantar",
+    "Descricao": "Mesa de madeira com capacIdade para seis pessoas",
+    "IsComprado": false
+  },
+  {
+    "Id": "b32617bb-22c3-4e82-95ac-72428de1a6e4",
+    "Nome": "Cama Queen",
+    "Descricao": "Cama queen-size com estrutura de metal",
+    "IsComprado": true
+  },
+  {
+    "Id": "6f2f8a3e-6c06-4fb7-a8f5-98e8c4a00c3b",
+    "Nome": "Guarda-roupa",
+    "Descricao": "Guarda-roupa de três portas com espelho",
+    "IsComprado": false
+  },
+  {
+    "Id": "8ac00df0-448f-4c66-b7e8-2f3e587eb9b5",
+    "Nome": "Cadeira de Escritório",
+    "Descricao": "Cadeira ergonômica para escritório em couro",
+    "IsComprado": true
+  },
+  {
+    "Id": "9f6f57d0-93fb-4b88-87da-5272d53c8e74",
+    "Nome": "Mesa de Centro",
+    "Descricao": "Mesa de centro de vIdro e metal",
+    "IsComprado": false
+  },
+  {
+    "Id": "e09e3ff9-42aa-4939-8cc7-15bce4a417a4",
+    "Nome": "Escrivaninha",
+    "Descricao": "Escrivaninha compacta para estudo",
+    "IsComprado": true
+  },
+  {
+    "Id": "3f80c110-c3bf-4a7d-a14b-82de86e8ff7c",
+    "Nome": "Prateleira",
+    "Descricao": "Prateleira flutuante para decoração",
+    "IsComprado": false
+  },
+  {
+    "Id": "2b8d8e45-94c1-4c18-92b2-ced929cb6461",
+    "Nome": "Cômoda",
+    "Descricao": "Cômoda de quatro gavetas em madeira",
+    "IsComprado": true
+  },
+  {
+    "Id": "67411823-b1d8-4e1a-8ba4-6ac1c7d858f5",
+    "Nome": "Cadeira de Balanço",
+    "Descricao": "Cadeira de balanço confortável para a sala de estar",
+    "IsComprado": false
+  }
+]
