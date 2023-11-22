@@ -31,5 +31,5 @@ Execute o projeto
 
 **Front-end:** HTML, CSS, Boostrap
 
-**Back-end:** C#m ASP.NET MVC
+**Back-end:** C#, ASP.NET MVC
 
